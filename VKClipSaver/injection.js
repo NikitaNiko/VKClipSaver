@@ -52,9 +52,6 @@
       "1440p": playerVars.url1440,
       "2160p": playerVars.url2160,
     };
-// 
-    // alert(playerVars.url480);
-
     const label = document.createElement('span');
     label.innerText = 'Скачать:';
     label.style.marginRight = '2px';
@@ -83,7 +80,6 @@
       panel.style.margin = '8px 15px';
       document.querySelector('div.mv_layer_bg').before(panel);
     }
-// 
     
   }
 
@@ -106,35 +102,3 @@
     return panel;
   }
 })();
-
-
-
-
-
-
-
-  // const label = document.createElement('span');
-  // label.innerText = 'Скачать1:';
-  // label.style.marginRight = '2px';
-
-  // for (const [quality, url] of Object.entries(videoSources)) {
-  //     if (typeof url !== 'undefined') {
-  //       const aTag = document.createElement('a');
-  //       aTag.href = url;
-  //       aTag.innerText = quality;
-  //       aTag.style.margin = '0 2px';
-  //       panel.appendChild(aTag);
-  //     }
-  // }
-
-  // const videoTitleBlock = document.querySelector('div.ui_scroll_resize_sensor');
-  // if (videoTitleBlock) {
-  //   panel.style.margin = '8px 0';
-  //   videoTitleBlock.before(panel);
-  // } else {
-  //   panel.style.margin = '8px 15px';
-  //   document.querySelector('div.mv_layer_bg').before(panel);
-  // }
-
-  // alert(window.mvcur.player.vars.url360);
-  // console.log("injection is ok")
