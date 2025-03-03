@@ -72,7 +72,7 @@
       }
     }
 
-    const videoTitleBlock = document.querySelector('div.ui_scroll_resize_sensor');
+    const videoTitleBlock = document.querySelector('div.like_cont ');
     if (videoTitleBlock) {
       panel.style.margin = '8px 0';
       videoTitleBlock.before(panel);
